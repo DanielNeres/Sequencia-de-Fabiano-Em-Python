@@ -4,5 +4,5 @@ i = 10
 while i >= 0:
     # importante imprimir o numero antes que o valor seja modificado
     numeroImpressao = (((1 + (5 ** 0.5))** i) - ((1 - (5 ** 0.5))** i)) / ((2 ** i) * (5 ** 0.5))
-    print(numeroImpressao)    
+    print(int (numeroImpressao))    
     i -= 1
