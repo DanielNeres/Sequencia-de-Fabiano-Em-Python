@@ -4,4 +4,5 @@ numeroAnterior = 1
 while numeroImpressao < = 34:
     # importante imprimir o numero antes que o valor seja modificado, pois a sequencia possui um zero
     print(numeroImpressao)    
+    # aqui "numeroImpressao" recebe a soma do valor anterior de "numeroImpressao" e "numeroAnterior", enquanto "numeroAnterior" recebe o valor anterior de "numeroImpressao". isso pois, o python possui a atribuição múltipla
     numeroImpressao, numeroAnterior = numeroImpressao + numeroAnterior, numeroImpressao
