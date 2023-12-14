@@ -2,7 +2,8 @@ numeroImpressao = 0
 numeroAnterior = 1
 i = 10
 # inicia um for que define o tamanho da sequência atravez da variavel i 
-for _ in range(i):
+while i >= 0:
     # importante imprimir o numero antes que o valor seja modificado
     numeroImpressao = (((1 + (5 ** 0.5))** i) - ((1 - (5 ** 0.5))** i)) / ((2 ** i) * (5 ** 0.5))
     print(numeroImpressao)    
+    i -= 1
