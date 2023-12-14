@@ -1,5 +1,4 @@
 numeroImpressao = 0
-numeroAnterior = 1
 i = 10
 # inicia um for que define o tamanho da sequência atravez da variavel i 
 while i >= 0:
