@@ -1,8 +1,7 @@
 numeroImpressao = 0
 numeroAnterior = 1
-i = 10
 # inicia um for que define o tamanho da sequência atravez da variavel i 
-for _ in range(i):
+while numeroImpressao < = 34:
     # importante imprimir o numero antes que o valor seja modificado
     print(numeroImpressao)    
     # soma o numero de impreção a outra variavel, que no incio serve para inciar a sequencia, mas após o primeiro laço ele reistra o ultimo valor usado na impreção
